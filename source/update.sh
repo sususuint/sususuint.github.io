@@ -117,9 +117,9 @@ done
 
 cp -r $target/* ..
 
-git add ../*
+git add "../*"
 
-git add $target/markdown/*
+git add "$target/markdown/*"
 
 if [ "$#" -lt 1 ] || [ "$1" != 'test' ]
 then
