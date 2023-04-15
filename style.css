@@ -13,12 +13,12 @@ a:hover, a:focus { color: #005580; text-decoration: underline; }
 .navbar { overflow: visible; }
 .navbar-static-top { position:static; margin:0em; }
 .navbar .nav > li { float: left; padding: 0ex 1ex; list-style: none; }
-.doc-title { font-size:133%; color: #777777; text-shadow:0ex 0.125ex 0ex #ffffff; padding: 1ex 2ex; text-indent: -1em; margin-left:1em; }
+.doc-title { font-size:133%; color: #777777; text-shadow:0ex 0.125ex 0ex #90ee90; padding: 1ex 2ex; text-indent: -1em; margin-left:1em; }
 .doc-title, ul.nav { display: block; }
 ul.nav { padding: 1ex; margin: 0em; }
 .navbar .container { display: flex; flex-wrap: wrap; align-items: bottom; }
-.navbar-inner { box-shadow: 0 0.0625ex 0.5ex rgba(0,0,0,.1); background-image: linear-gradient(to bottom, #ffffff, #f2f2f2); padding: 1ex; }
-footer { text-align: center; box-shadow: 0 0.0625ex 0.5ex rgba(0,0,0,.1); background-image: linear-gradient(to top, #ffffff, #f2f2f2); padding: 1ex; }
+.navbar-inner { box-shadow: 0 0.0625ex 0.5ex rgba(0,0,0,.1); background-image: linear-gradient(to bottom, #90ee90, #f2f2f2); padding: 1ex; }
+footer { text-align: center; box-shadow: 0 0.0625ex 0.5ex rgba(0,0,0,.1); background-image: linear-gradient(to top, #90ee90, #f2f2f2); padding: 1ex; }
 
 
 
