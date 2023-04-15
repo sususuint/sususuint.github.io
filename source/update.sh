@@ -113,7 +113,21 @@ do
     upfile "$path"
 done
 
-cp -r $target/* ..;
+
+
+cp -r $target/* ..
+
+git add ../*
+
+if [ "$#" -lt 1 ] || [ "$1" != 'test' ]
+then
+    git commit -a -m 'autocommit caused by update'
+    git pull
+    git push
+elif [ "$1" = 'test' ]
+then
+    shift
+fi
 
 #rsync --update --compress --recursive --times --verbose -e ssh "$target" "$remote"
 
