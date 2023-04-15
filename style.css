@@ -33,7 +33,7 @@ footer { text-align: center; box-shadow: 0 0.0625ex 0.5ex rgba(0,0,0,.1); backgr
 .toc ul  { padding: 0em; margin: 0em; list-style: none; }
 .toc ul > li > a { padding: 0.25ex 1ex;  display:block; text-indent: -2em; padding-left: calc(2em + 1ex); line-height:125%; }
 .toc ul > li > a:hover, .toc ul > li > a:focus { background-color: #cdf7c3; text-decoration: none; }
-.nav-header { padding: 0.5ex 1ex;  display:block; color: #eeeeee; text-transform: uppercase; font-weight: bold; text-shadow:0ex 0.125ex 0ex rgba(255,255,255,0.5); font-size: 79.43%; }
+.nav-header { padding: 0.5ex 1ex;  display:block; color: #32a852; text-transform: uppercase; font-weight: bold; text-shadow:0ex 0.125ex 0ex rgba(255,255,255,0.5); font-size: 79.43%; }
 
 
 /* Header styles */
