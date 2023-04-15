@@ -113,7 +113,7 @@ do
     upfile "$path"
 done
 
+cp -r target ..
 
-
-rsync --update --compress --recursive --times --verbose -e ssh "$target" "$remote"
+#rsync --update --compress --recursive --times --verbose -e ssh "$target" "$remote"
 
