@@ -113,7 +113,7 @@ do
     upfile "$path"
 done
 
-cp -r $target "$(readlink -f "$here""/../")/"
+ls $target;
 
 #rsync --update --compress --recursive --times --verbose -e ssh "$target" "$remote"
 
