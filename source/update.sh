@@ -119,6 +119,8 @@ cp -r $target/* ..
 
 git add ../*
 
+git add $target/markdown/*
+
 if [ "$#" -lt 1 ] || [ "$1" != 'test' ]
 then
     git commit -a -m 'autocommit caused by update'
